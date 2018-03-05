@@ -1,0 +1,125 @@
+#wrapper{
+	border-radius: 15px;
+	width:1000px;
+	height: 800px;
+	margin: 0 auto;
+	border:ridge 4px;
+	text-align: left;
+	background: linear-gradient(to bottom right, blue, white);
+}
+
+#people{
+	border-radius: 50%;
+	height: auto; 
+    width: auto; 
+	max-width: 100px; 
+    max-height: 100px;
+    padding: 12px;
+}
+
+.points{
+	text-shadow: 3px 3px 7px #FF0000;
+	text-align: right;
+	position: relative;
+	top: -120px;
+	
+}
+#points_num{
+	left: -100px;
+	font-size: 1.5em;
+}
+
+#name{
+	background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+	font-family:  Arial, Helvetica, sans-serif;
+	text-shadow: 3px 3px 7px #FF0000;
+	border-radius: 10px;
+	text-align:center;
+	position: relative;
+	left: 10px;
+	width: 100px; 
+    background: blue;
+    color: white;
+}
+name: hover {
+	background-color: #008CBA
+}
+
+#cards{
+	
+	border-radius: 12px;
+	margin:0 auto;
+	text-align:justify;
+	position: relative;
+	top: 10px;
+}
+
+body{
+	background: linear-gradient(to bottom right, white, blue);
+	text-align: center;
+}
+
+#winner{
+	font-size: 3em;
+	text-shadow: 2px 2px 8px #FF0000;
+	color: Black;
+	text-align: center;
+}
+
+#result{
+	
+	position: absolute center;
+}
+
+input{
+  display: inline-block;
+  top: 125px;
+  font-weight: bold;
+  padding: 10px 15px;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  position: relative;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  /*border-radius: 10px;*/
+  /*top: 130px;*/
+  /*   position:relative;*/
+ /*   font-family:  Arial, Helvetica, sans-serif;*/
+ /*   font-size:1.5em;*/
+ /*   background-color: Transparent;*/
+ /*   font-weight:bold;*/
+ /*   color:black;*/
+ /*   cursor:pointer;*/
+        
+        
+}
+input:hover{ 
+	background-color: gray ;
+}
+input: active { 
+  background-color: #3e8e41;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+#title{
+	border-radius: 25px;
+	font-family:  Arial, Helvetica, sans-serif;
+	text-shadow: 2px 2px 8px #FF0000;
+	height: 60px;
+	margin:0 auto;
+	position: relative;
+	width: 1000px;
+    background: linear-gradient(to bottom right, blue, white);
+    font-size: 3em;
+    
+}
